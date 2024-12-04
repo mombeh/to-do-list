@@ -1,6 +1,5 @@
 const inputBox = document.getElementById('input-box')
 const addTask = document.getElementById('click')
-const enterButton = document.getElementById('endbutton')
 const emptyList = document.getElementById('list')
 
 addTask.addEventListener('click', () => {
