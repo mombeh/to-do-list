@@ -8,7 +8,7 @@ addTask.addEventListener('click', () => {
     alert('Please enter a task')
     return
   }
-  
+
   const emptyButton = document.createElement('li')
   emptyButton.className = 'em'
   emptyButton.style.padding = '5px'
@@ -18,4 +18,3 @@ addTask.addEventListener('click', () => {
   emptyButton.textContent = finishButton
   emptyList.append(emptyButton)
 })
-  
